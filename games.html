@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="SpinFume game catalog with virtual coins only.">
+  <title>Games — SpinFume</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&family=Sora:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="sf-skip" href="#main">Skip to content</a>
+
+  <header class="sf-head">
+    <div class="sf-wrap sf-head__row">
+      <a class="sf-brand" href="index.html" aria-label="SpinFume home"><img src="assets/logo.webp" alt=""></a>
+      <nav class="sf-nav" id="sf-nav" aria-label="Primary">
+        <a href="index.html">Home</a>
+        <a class="on" href="games.html">Games</a>
+        <a href="about.html">About Us</a>
+        <a href="faq.html">FAQ</a>
+        <a href="responsible-play.html">Responsible Play</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+      <div class="sf-tools"><span class="sf-pill">Virtual Coins Only</span><button class="sf-burger" aria-expanded="false" aria-label="Open menu"><span></span><span></span><span></span></button></div>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="sf-section sf-reveal">
+      <div class="sf-wrap">
+        <p class="sf-kicker">Catalog</p>
+        <h1 class="sf-h2" style="font-size:clamp(2rem,4.9vw,2.6rem)">Choose your lobby</h1>
+        <p class="sf-sub">Filter instantly and launch any free-to-play game. Virtual coins only.</p>
+        <div class="sf-filters" role="toolbar" aria-label="Game category filters" style="margin-top:1rem">
+          <button type="button" class="sf-filter" data-sf-filter="all" aria-pressed="true">All</button>
+          <button type="button" class="sf-filter" data-sf-filter="slots" aria-pressed="false">Slots</button>
+          <button type="button" class="sf-filter" data-sf-filter="roulette" aria-pressed="false">Roulette</button>
+          <button type="button" class="sf-filter" data-sf-filter="blackjack" aria-pressed="false">Blackjack</button>
+          <button type="button" class="sf-filter" data-sf-filter="poker" aria-pressed="false">Poker</button>
+          <button type="button" class="sf-filter" data-sf-filter="wheel" aria-pressed="false">Wheel</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="sf-section" style="padding-top:.2rem">
+      <div class="sf-wrap">
+        <div class="sf-grid">
+          <a class="sf-game sf-reveal" data-sf-cat="slots" href="games/slot-machine/index.html"><img class="sf-game__img" src="assets/game_card_slot.webp" alt=""><div class="sf-game__shade"></div><span class="sf-game__rail">Hot</span><div class="sf-game__panel"><div><div class="sf-game__tag">Virtual Coins</div><h3 class="sf-game__title">Neon Slots Rush Deluxe</h3><p class="sf-game__meta">Slots · Turbo reels</p></div><span class="sf-game__cta">Play Free</span></div></a>
+          <a class="sf-game sf-reveal" data-sf-cat="roulette" href="games/roulette/index.html"><img class="sf-game__img" src="assets/roulette.webp" alt=""><div class="sf-game__shade"></div><span class="sf-game__rail">New</span><div class="sf-game__panel"><div><div class="sf-game__tag">Free Play</div><h3 class="sf-game__title">Mega Roulette Spin X</h3><p class="sf-game__meta">Roulette · Pulse wheel</p></div><span class="sf-game__cta">Play Free</span></div></a>
+          <a class="sf-game sf-reveal" data-sf-cat="blackjack" href="games/blackjack/index.html"><img class="sf-game__img" src="assets/blackjack.webp" alt=""><div class="sf-game__shade"></div><span class="sf-game__rail">Popular</span><div class="sf-game__panel"><div><div class="sf-game__tag">Virtual Coins</div><h3 class="sf-game__title">Lucky Blackjack Pro Max</h3><p class="sf-game__meta">Blackjack · Smart hands</p></div><span class="sf-game__cta">Play Free</span></div></a>
+          <a class="sf-game sf-reveal" data-sf-cat="poker" href="games/Texas-Holdem/index.html"><img class="sf-game__img" src="assets/poker.webp" alt=""><div class="sf-game__shade"></div><span class="sf-game__rail">New</span><div class="sf-game__panel"><div><div class="sf-game__tag">Virtual Coins</div><h3 class="sf-game__title">Royal Poker Hold'em Prime</h3><p class="sf-game__meta">Poker · Strategy flow</p></div><span class="sf-game__cta">Play Free</span></div></a>
+          <a class="sf-game sf-reveal" data-sf-cat="wheel" href="games/hi-lo-lounge/index.html"><img class="sf-game__img" src="assets/playing-card.webp" alt=""><div class="sf-game__shade"></div><span class="sf-game__rail">Hot</span><div class="sf-game__panel"><div><div class="sf-game__tag">Virtual Coins</div><h3 class="sf-game__title">Golden Wheel Roulette Max</h3><p class="sf-game__meta">Wheel · Quick reads</p></div><span class="sf-game__cta">Play Free</span></div></a>
+          <a class="sf-game sf-reveal" data-sf-cat="poker" href="games/Baccarat/index.html"><img class="sf-game__img" src="assets/baccarat.webp" alt=""><div class="sf-game__shade"></div><span class="sf-game__rail">Popular</span><div class="sf-game__panel"><div><div class="sf-game__tag">Free Play</div><h3 class="sf-game__title">Velvet Poker Baccarat Royale</h3><p class="sf-game__meta">Poker · Royale tempo</p></div><span class="sf-game__cta">Play Free</span></div></a>
+          <a class="sf-game sf-reveal" data-sf-cat="wheel" href="games/lucky-flip-lounge/index.html"><img class="sf-game__img" src="assets/game_back.webp" alt=""><div class="sf-game__shade"></div><span class="sf-game__rail">New</span><div class="sf-game__panel"><div><div class="sf-game__tag">Virtual Coins</div><h3 class="sf-game__title">Royal Wheel Lucky Flip Deluxe</h3><p class="sf-game__meta">Wheel · Lightning flips</p></div><span class="sf-game__cta">Play Free</span></div></a>
+          <a class="sf-game sf-reveal" data-sf-cat="wheel" href="games/craps-game/index.html"><img class="sf-game__img" src="assets/dice.webp" alt=""><div class="sf-game__shade"></div><span class="sf-game__rail">Hot</span><div class="sf-game__panel"><div><div class="sf-game__tag">Free Play</div><h3 class="sf-game__title">Prism Wheel Dice Stack</h3><p class="sf-game__meta">Wheel · Dice momentum</p></div><span class="sf-game__cta">Play Free</span></div></a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="sf-foot">
+    <div class="sf-wrap sf-foot__grid">
+      <div><div class="sf-foot__brand"><img src="assets/logo.webp" alt=""><span>SpinFume</span></div><p style="color:var(--sf-muted);margin:.75rem 0 0;max-width:44ch">Free-to-play social entertainment. Virtual coins only. March <span class="js-year">2026</span>.</p></div>
+      <div class="sf-foot__links"><div class="sf-foot__col"><h4>Explore</h4><a href="index.html">Home</a><a href="games.html">Games</a><a href="about.html">About Us</a><a href="faq.html">FAQ</a><a href="contact.html">Contact</a></div><div class="sf-foot__col"><h4>Legal</h4><a href="privacy-policy.html">Privacy Policy</a><a href="terms-of-use.html">Terms of Use</a><a href="responsible-play.html">Responsible Play</a></div></div>
+    </div>
+    <div class="sf-wrap sf-foot__base">© <span class="js-year">2026</span> SpinFume. Virtual coins have no real-world value.</div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
